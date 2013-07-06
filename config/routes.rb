@@ -1,4 +1,5 @@
 Schoolapp::Application.routes.draw do
+  root 'students#index'
   resources :students
 
   # The priority is based upon order of creation: first created -> highest priority.
